@@ -1,7 +1,9 @@
 body {
     background-color: black;
     font-family: arial;
-    color: white
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -53,7 +55,7 @@ h1 {
 
 input:not([type=range]), select, button {
     margin: 10px;
-    padding: 0 5px;
+    padding: 6px;
     border-radius: 10px;
 }
 

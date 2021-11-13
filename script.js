@@ -22,7 +22,7 @@ window.onload = function () {
     const time = document.getElementById("years").value;
 
 
-    if(principal === 0){
+    if(!principal){
         alert("Enter Positive Number")
         return;}
 

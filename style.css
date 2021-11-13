@@ -54,6 +54,7 @@ h1 {
 input:not([type=range]), select, button {
     margin: 10px;
     padding: 0 5px;
+    border-radius: 10px;
 }
 
 .tagged {

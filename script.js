@@ -21,6 +21,11 @@ window.onload = function () {
     const rate = document.getElementById("rate").value;
     const time = document.getElementById("years").value;
 
+
+    if(principal === 0){
+        alert("Enter Positive Number")
+        return;}
+
     const result = (principal * rate * time) / 100;
 
     const output =
@@ -32,4 +37,5 @@ window.onload = function () {
       }</span> </p>`;
 
     document.getElementById("result").innerHTML = output;
+    document.getElementById("principal").focus();
   }

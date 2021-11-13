@@ -1,4 +1,62 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white
+}
 
+h1 {
+    color: grey;
+    font-family: verdana
+}
 
+.maindiv {
+    background: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    align-self: center;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.slider {
+    background: linear-gradient(to right, #0056d2 0%, #0056d2 35%, #fff 35%, #fff 100%);
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 5px;
+    margin: 10px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #0056d2;
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid 1px #82CFD0;
+}
+
+input:not([type=range]), select, button {
+    margin: 10px;
+    padding: 0 5px;
+}
+
+.tagged {
+    background: yellow;
+    padding: '0 2.5px'
+}

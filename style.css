@@ -25,7 +25,7 @@ h1 {
 }
 
 .slider {
-    background: linear-gradient(to right, #0056d2 0%, #0056d2 35%, #fff 35%, #fff 100%);
+    background: linear-gradient(to right, #0056d2 0%, #0056d2 17%, #fff 17%, #fff 100%);
     border: solid 1px #82CFD0;
     border-radius: 8px;
     height: 5px;
